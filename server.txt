@@ -1,0 +1,7 @@
+FTP-client (Filezilla of WinSCP of andere)
+FTP niet SFTP (poort 21)
+
+Hostname : student.pxl-ea-ict.be
+Login : admin@12000825.pxl-ea-ict.be
+Wachtwoord : Jb97jDYAlrnQ
+Website : http://12000825.pxl-ea-ict.be

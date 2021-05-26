@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0">
+
+<channel>
+
+  <title>mijn rss feed</title>
+
+  <link>http://12000825.pxl-ea-ict.be</link>
+
+  <description>hier komt mijn wekelijkse rss feed</description>
+
+  <item>
+
+    <title>RSS Tutorial</title>
+
+    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+
+    <description>New RSS tutorial on W3Schools</description>
+
+  </item>
+
+  <item>
+
+    <title>test rss</title>
+
+    <link>https://http://12000825.pxl-ea-ict.be/feed.xml</link>
+
+    <description>Dit is de laatste test voor dat we officieel moeten beginnen met de rss feed.</description>
+
+  </item>
+
+  <item>
+
+    <title>week 4</title>
+
+    <link>https://github.com/OnurGndgd/helloworld</link>
+
+    <description>Opstarten en leren omgaan met github en gitkraken.</description>
+
+  </item>
+
+  <item>
+
+    <title>week 5</title>
+
+    <link>http://12000825.pxl-ea-ict.be/index.html</link>
+
+    <description>Hoofd blokken erbij toegevoegd.</description>
+
+  </item>
+
+  <item>
+
+    <title>week 6</title>
+
+    <link>https://github.com/PXLDigital/1EAI-WT-pxl-elektronica-ict.be/tree/google_maps</link>
+
+    <description>Binnen index.html gewerkt via Gitkraken.</description>
+
+  </item>
+
+  <item>
+
+    <title>week 7</title>
+
+    <link>https://github.com/PXLDigital/1EAI-WT-pxl-elektronica-ict.be/tree/google_maps</link>
+
+    <description>Online demonstratie en kennisoverdracht.</description>
+
+  </item>
+
+  <item>
+
+    <title>week 8</title>
+
+    <link>https://github.com/PXLDigital/1EAI-WT-pxl-elektronica-ict.be/tree/ProjectOntwerpen</link>
+
+    <description>main.html: hall of fame tab in de navbar. HallOfFame.html: de structuur van de site opgesteld</description>
+
+  </item>
+
+  <item>
+
+    <title>week 9</title>
+
+    <link>http://12000825.pxl-ea-ict.be/index.html</link>
+
+    <description>Nieuw onderwerp gekozen.</description>
+
+  </item>
+
+  <item>
+
+    <title>week 10</title>
+
+    <link>http://12000825.pxl-ea-ict.be/index.html</link>
+
+    <description>verder gewerkt aan eigen project + online kennisoverdracht.</description>
+
+  </item>
+
+  <item>
+
+    <title>week 11</title>
+
+    <link>http://12000825.pxl-ea-ict.be/digital_signage/uurrooster.php</link>
+
+    <description>digital_signage update.</description>
+
+  </item>
+
+  <item>
+
+    <title>week 12</title>
+
+    <link>http://12000825.pxl-ea-ict.be/digital_signage/uurrooster.php</link>
+
+    <description>digital_signage update + verslag.html toegevoegd</description>
+
+  </item>
+
+  <item>
+
+    <title>week 13</title>
+
+    <link>http://12000825.pxl-ea-ict.be/index.html</link>
+
+    <description>demonstratie + eigen website update</description>
+
+  </item>
+
+</channel>
+
+</rss>

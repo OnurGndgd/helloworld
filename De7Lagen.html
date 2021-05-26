@@ -2,89 +2,12 @@
 <html>
 
 <head>
-<title>Het OSI-model</title>
-<style>
 
-/*navigationbar*/
-  ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+  <title>Het OSI-model</title>
 
-  li{
-    float: left;
-  }
+  <link rel="icon" href="./afbeeldingen/osiicon.jpg">
+  <link rel="stylesheet" href="style.css">
 
-  li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover:not(.active){
-    background-color: #111;
-  }
-
-  .active{
-    background-color: #92140c;
-  }
-
-
-      /* styles for body*/
-        body{
-            font-size: 1.3rem;
-            line-height: 1.65;
-            font-family: 'muli', sans-serif;
-            color: #1e1e24;
-            background-color: #fff8f0;
-            margin: 2em;
-        }
-
-        footer{
-            color: #92140c;
-            border-color: #000000;
-            border-top:solid;
-            text-align:right;
-        }
-
-        .titel{
-            font-size: 64px;
-            color: #92140c;
-            text-align: center;
-        }
-
-        .columns{
-            column-count: 1;
-            column-width: 250px;
-            column-span: all;
-        }
-
-        .img{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hlayer{
-            margin-left: 35px;
-        }
-
-        .pdescription{
-            margin-left: 100px;
-            margin-right: 25px;
-        }
-
-        .dotted-border{
-            border-left: dotted #92140c;
-            border-right: dotted #92140c;
-        }
-
-</style>
 </head>
 
 <body>
@@ -92,9 +15,10 @@
   <!--navigationbar-->
     <ul> 
         <li><a href= index.html>Home</a></li>
-        <li><a class="active" href="De7Lagen.html">De 7 lagen</a></li>
+        <li><a class="active" href="de7lagen.html">De 7 lagen</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="verslag.html">Verslag</a></li>
+        <li><a href="feed.xml">RSS</a></li>
     </ul>
 
   <!--titel-->
@@ -103,14 +27,14 @@
   <!--midden-->
   <div class="dotted-border">
     <h2 class="hlayer"> 1 Fysieke laag </h2>
-      <p class="pdescription"> in de fysieke laag worden de bits van een datapakket omgezet in een fysiek signaal dat bij het overdrachtsmedium past.
+      <p class="pdescription"> In de fysieke laag worden de bits van een datapakket omgezet in een fysiek signaal dat bij het overdrachtsmedium past.
          Alleen dit signaal kan via een medium als koperdraad, glasvezel of de lucht worden overgedragen.
          Het koppelvlak naar het overdrachtsmedium wordt bepaald door protocollen en normen als DSL, ISDN, Bluetooth, USB (fysieke laag) of Ethernet (fysieke laag). </p>
   </div>
 
   <div class="dotted-border">
     <h2 class="hlayer"> 2 Datalinklaag </h2>
-      <p class="pdescription"> in de datalinklaag zorgen functies voor het herkennen van fouten, het verhelpen van fouten en de controle van de gegevensstroom ervoor dat overdrachtsfouten worden voorkomen.
+      <p class="pdescription"> In de datalinklaag zorgen functies voor het herkennen van fouten, het verhelpen van fouten en de controle van de gegevensstroom ervoor dat overdrachtsfouten worden voorkomen.
          Daarvoor wordt het datapakket inclusief application, presentation, session, transport en network header omgeven door een frame van data link header en data link trail.
          Daarnaast vindt in de 2e laag de hardware-adressering plaats.
          Daarbij worden zogenaamde MAC-adressen gebruikt.
@@ -119,7 +43,7 @@
 
   <div class="dotted-border">
     <h2 class="hlayer"> 3 Netwerklaag </h2>
-      <p class="pdescription"> met laag 3 bereikt de gegevensoverdracht het internet.
+      <p class="pdescription"> Met laag 3 bereikt de gegevensoverdracht het internet.
          In de netwerklaag worden de eindapparaten logisch geadresseerd.
          Hieraan wordt in laag 3 een eenduidig IP-adres toegewezen.
          Aan een datapakket, zoals de e-mailgegevens in het voorbeeld, wordt op het 3e niveau van het OSI-model een ‘network header’ toegevoegd, die informatie bevat over de routering en over de controle van de gegevensstroom.
@@ -129,7 +53,7 @@
 
   <div class="dotted-border">
     <h2 class="hlayer"> 4 Transportlaag </h2>
-      <p class="pdescription"> de transportlaag fungeert als schakel tussen de toepassingsgeoriënteerde en de transportgeoriënteerde lagen.
+      <p class="pdescription"> De transportlaag fungeert als schakel tussen de toepassingsgeoriënteerde en de transportgeoriënteerde lagen.
          Op dit niveau van het OSI-model wordt de logische end-to-endverbinding, het overdrachtskanaal, tussen de communicerende systemen gerealiseerd.
          Ook daarvoor moet aan de e-mailgegevens bepaalde informatie worden toegevoegd.
          Het datapakket, dat al met de headers van de toepassingsgeoriënteerde lagen is uitgebreid, wordt in laag 4 aangevuld met een ‘transport header’.
@@ -140,7 +64,7 @@
 
   <div class="dotted-border">
     <h2 class="hlayer"> 5 Sessielaag </h2>
-      <p class="pdescription"> de centrale taak die in de sessielaag wordt volbracht, is het regelen van de verbinding tussen de twee eindsystemen.
+      <p class="pdescription"> De centrale taak die in de sessielaag wordt volbracht, is het regelen van de verbinding tussen de twee eindsystemen.
          Daarom wordt deze laag ook wel communicatielaag genoemd.
          Hier zijn speciale regel- en controlemechanismen actief die het tot stand komen, onderhouden en beëindigen van de verbinding regelen. 
          Voor deze communicatieregeling is extra informatie nodig die door een ‘session header’ aan de e-mailgegevens wordt toegevoegd. 
@@ -161,7 +85,7 @@
 
   <div class="dotted-border">
     <h2 class="hlayer"> 7 Toepassingslaag </h2>
-      <p class="pdescription"> de toepassingslaag is het niveau van het OSI-model dat direct contact heeft met toepassingen als e-mailprogramma’s of webbrowsers. 
+      <p class="pdescription"> De toepassingslaag is het niveau van het OSI-model dat direct contact heeft met toepassingen als e-mailprogramma’s of webbrowsers. 
         Hier worden gegevens uitgewisseld. 
         De toepassingslaag brengt de verbinding met de lagere niveaus van het OSI-model tot stand en houdt functies voor toepassingen gereed. 
         Aan de hand van het voorbeeld van de e-mailoverdracht kan deze laag als volgt worden verduidelijkt: een gebruiker tikt een bericht in het e-mailprogramma op zijn eindapparaat. 
@@ -174,7 +98,7 @@
 
 
   <br><br><br>
-
+  <!--footer met contact gegevens-->
   <footer>
   <address>
     <p>Auteur: Onur Gundogdu
